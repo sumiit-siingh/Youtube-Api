@@ -1,0 +1,126 @@
+:root{
+    --theme: #e1e1e1
+}
+
+.App{
+    width:100vw;
+    height: 100vh;
+    background-color: #171717;
+    color: white;
+    display: flex;
+}
+.page{
+    flex: 1;
+    margin-left: 1rem;
+    display: flex;
+    overflow: hidden;
+}
+
+.sidebar{
+    background-color: transparent;
+    height: 100%;
+    width: 14rem;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.sidebar_in{
+    font-size: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar_input{
+    margin-bottom: 1rem;
+    display: flex;
+    border-bottom: 2px solid #ef8d30;
+}
+
+.input{
+    outline: none;
+    border: 0px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+}
+
+.sidebar_text{
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 5px 0px 5px ;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    color: #fff;
+}
+.sidebar_text:hover{
+    background-color: #ef8c30a8;
+}
+.sidebar_text:focus{
+    background-color: #ef8c30a8;
+}
+
+.sidebar_hedding{
+    font-size: 18px;font-weight: 600;
+    color: #e7760c;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 1rem;
+    overflow-y: auto;
+    padding-left: 1rem;
+}
+
+.content_main{
+    flex:1;
+    margin-top: 0.2rem;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.video_card{
+    width: 22vw;
+    height: 15rem;
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+.video_card:hover{
+    outline: 1px solid #ef8c30a8;
+}
+
+.video_image{
+    width: 100%;
+    height: 11rem;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.video_title{
+    margin-top: 2px;
+}
+
+.video_page{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    
+}
